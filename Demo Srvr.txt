@@ -1,0 +1,5 @@
+** This is how you put the servers on the origanl Srvr.txt file.
+Server1
+Server2
+Server3
+and so on.
