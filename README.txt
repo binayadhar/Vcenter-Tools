@@ -12,14 +12,17 @@ Installation:
 1. Open Powershell as ADMIN
 2. Run " Set-ExecutionPolicy RemoteSigned" and type yes..
 3. Run Install.ps1 file to install all the dependency.
+VIDEO TUTORIAL: https://youtu.be/rxfUIcM4v8Q 
 
-Running the Script.
+
+Running the Script:
 1. Open Srvr.txt and write the VM names one by one line needed to be performed operation on
 2. Open Creds.txt and give the Vcenter/ESXI Login Credentials.
 Note: Credentials must given as first line username and the next line password.
 3. Directly run the Script by right clicking on it.
 4. Provide the Vcenter/ESXI host IP or URL without HTTP/HTTPS
 5. On Successful connection options will be displayed to perform activity.
+VIDEO TUTORIAL: https://youtu.be/aXhVuwLAAIA 
 
 NOTE: For Delete Activity the script will rename the VMS with the hostname-Delete option.
 and the Undo option will revert back the VMs to the original name.
@@ -32,8 +35,6 @@ Version Details.
 * Added new function to rename the server back from -Delete to original name.
 * Code optimized.
 * Lot of Bug Fixed**
-
-
 
 :Version 1:
 * Initial Development of the script.
