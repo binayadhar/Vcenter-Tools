@@ -29,7 +29,8 @@ and the Undo option will revert back the VMs to the original name.
 ---
 Version Details.
 ---
-
+:Version 2.1:
+*Added Function to fetch Server Details for names already changed to "Hostname-Delete"
 :Version 2:
 * Added new function to refresh server list without exiting the script.
 * Added new function to rename the server back from -Delete to original name.
