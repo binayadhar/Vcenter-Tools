@@ -29,6 +29,11 @@ and the Undo option will revert back the VMs to the original name.
 ---
 Version Details.
 ---
+:Version 3:
+* Added new function to changer Vcenter without closing the script.
+* Added Update Center, The script will check for any new updated by iself and intemate the user. 
+* Bug Fixed.
+
 :Version 2.1:
 *Added Function to fetch Server Details for names already changed to "Hostname-Delete".
 
