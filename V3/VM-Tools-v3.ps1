@@ -13,7 +13,7 @@ write-host "the script is updating...."
 $f1 = $temp[1]
 $f2 = $temp[2]
 Invoke-WebRequest -Uri $f1 -OutFile "Install.ps1"
-Invoke-WebRequest -Uri $f2 -OutFile "VM-Tools-$vrsn2.ps1"
+Invoke-WebRequest -Uri $f2 -OutFile "VM-Tools-v$vrsn2.ps1"
 Clear-Host
 Write-Host " The Script has been sucessfully updates to $vrsn2, you can continue to use this terminal else open the new script located in the same folder as this script"
 sleep(3)
@@ -104,7 +104,6 @@ Write-Host "`n Below are the choices:`n"
 9. Check for Script Updates
 C. Credits
 0. Exit the Script
-
 "
 $ch=Read-Host -Prompt "`n Please enter your choice"
 
@@ -176,7 +175,6 @@ switch ($ch)
                updt;
              }
 
-            default { "Please select a correct option."}
-
+           default { "Please select a correct option."}
     }
     }
