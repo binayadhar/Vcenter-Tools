@@ -22,7 +22,7 @@ else{
 Clear-Host
 }
 }
-else{Write-Host "No Updates are located"}
+else{Write-Host "No Updates are located, jumping to menu"}
 sleep(3)
 Clear-Host
 }
