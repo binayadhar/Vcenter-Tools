@@ -1,5 +1,5 @@
 #NOTE: Latest Release V2.
-Please install V2 script
+Please install V3 script
 
 This script is made for automation certain task in VMware ESXI Host OR Vcenters.
 The Script will perform the following functions.
