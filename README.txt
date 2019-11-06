@@ -1,4 +1,3 @@
-#NOTE: Latest Release V2.
 Please install V3 script
 
 This script is made for automation certain task in VMware ESXI Host OR Vcenters.
@@ -29,6 +28,10 @@ and the Undo option will revert back the VMs to the original name.
 ---
 Version Details.
 ---
+:Version 3.1:
+*Now the script will ask for username and password everytime it launches, no need to save credentials in the text file. 
+*Bug Fixed. 
+
 :Version 3:
 * Added new function to changer Vcenter without closing the script.
 * Added Update Center, The script will check for any new updated by iself and intemate the user. 
