@@ -1,6 +1,6 @@
 ﻿Set-PowerCLIConfiguration -Scope User -ParticipateInCEIP $false -Confirm:$false |Out-Null
 function updt(){
-$vrsn=3
+$vrsn=3.1
 $url="https://raw.githubusercontent.com/binayadhar/UpdateSetings/master/VAT/VTUPDT.ini"
 Invoke-WebRequest -Uri $url -OutFile temp.ini
 $temp= Get-Content -Path .\temp.ini
