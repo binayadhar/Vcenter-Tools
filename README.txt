@@ -1,4 +1,3 @@
-#NOTE: Latest Release V3.1
 Please install V3 script
 
 This script is made for automation certain task in VMware ESXI Host OR Vcenters.
