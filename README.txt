@@ -1,4 +1,4 @@
-Please install V3 script
+Please install V3.1 script
 
 This script is made for automation certain task in VMware ESXI Host OR Vcenters.
 The Script will perform the following functions.
